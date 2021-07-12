@@ -1,2 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Karla';
+    font-size: 16px;
+    width: 1440px;
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container{
+    margin: 100px;
+    display: block;
+}
+
+.principal{
+    background-color: hsl(0, 100%, 100%);
+    padding: 40px;
+}
+
+.container2{
+    display: flex;
+}
+
+.subscription{
+    background-color: hsl(179, 62%, 43%);
+    color: hsl(0, 100%, 100%);
+    padding: 40px;
+    height: 100px;
+}
+
+.subscription span{
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.why-us{
+    background-color: hsl(179, 47%, 52%);
+     padding: 40px;
+}
+
+/*----------------------------------------------------*/
 .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: hsl(228, 45%, 44%); }
