@@ -10,11 +10,27 @@ body{
 .container{
     margin: 100px;
     display: block;
+    width: 650px;
 }
 
 .principal{
     background-color: hsl(0, 100%, 100%);
-    padding: 40px;
+    padding: 25px 40px 25px 40px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h2{
+    color: hsl(179, 62%, 43%);
+}
+
+.principal h3{
+    color: hsl(71, 73%, 54%);
+}
+
+.principal p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.7;
 }
 
 .container2{
@@ -24,18 +40,48 @@ body{
 .subscription{
     background-color: hsl(179, 62%, 43%);
     color: hsl(0, 100%, 100%);
-    padding: 40px;
-    height: 100px;
+    padding: 20px 40px 40px 40px;
+    height: 200px;
+    width: 325px;
+    border-bottom-left-radius: 10px;
 }
 
 .subscription span{
     font-weight: 900;
-    font-size: 20px;
+    font-size: 30px;
+
+
 }
 
 .why-us{
     background-color: hsl(179, 47%, 52%);
-     padding: 40px;
+    padding: 20px 40px 40px 40px;
+    height: 200px;
+    width: 325px;
+    border-bottom-right-radius: 10px;
+}
+
+.why-us h3{
+    color: hsl(0, 100%, 100%);
+}
+
+.why-us p{
+    line-height: 1.3;
+    color: hsl(204, 43%, 91%);
+}
+
+#botao{
+    display: flex;
+    color: hsl(0, 100%, 100%);
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(71, 73%, 54%);
+    margin-top: 40px;
+    padding: 20px;
+    height: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px 0px hsla(218, 5%, 45%, 60%);
 }
 
 /*----------------------------------------------------*/
